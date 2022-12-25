@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01_selenium_intro/BasicNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01_selenium_intro/SeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day01_selenium_intro/Task1_YahooTitleVerification.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Selenium day1 completed">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/T1_CydeoVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/T2_LinkTextPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/T3_GoogleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/T4_LibraryLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/T5_getTextAndGetAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +49,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Task1_YahooTitleVerification">
-    <configuration name="BasicNavigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day01_selenium_intro.BasicNavigation" />
+}]]></component>
+  <component name="RunManager" selected="Application.T5_getTextAndGetAttribute">
+    <configuration name="T1_CydeoVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.T1_CydeoVerification" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day01_selenium_intro.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day01_selenium_intro.SeleniumTest" />
+    <configuration name="T2_LinkTextPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.T2_LinkTextPractice" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day01_selenium_intro.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_YahooTitleVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day01_selenium_intro.Task1_YahooTitleVerification" />
+    <configuration name="T3_GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.T3_GoogleSearch" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day01_selenium_intro.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T4_LibraryLoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.T4_LibraryLoginPage" />
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T5_getTextAndGetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.T5_getTextAndGetAttribute" />
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,9 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1_YahooTitleVerification" />
-        <item itemvalue="Application.BasicNavigation" />
-        <item itemvalue="Application.SeleniumTest" />
+        <item itemvalue="Application.T5_getTextAndGetAttribute" />
+        <item itemvalue="Application.T4_LibraryLoginPage" />
+        <item itemvalue="Application.T3_GoogleSearch" />
+        <item itemvalue="Application.T2_LinkTextPractice" />
+        <item itemvalue="Application.T1_CydeoVerification" />
       </list>
     </recent_temporary>
   </component>
@@ -123,11 +152,24 @@
       <workItem from="1671738347734" duration="1709000" />
       <workItem from="1671876848553" duration="9234000" />
       <workItem from="1671966830967" duration="560000" />
+      <workItem from="1671972179269" duration="12477000" />
     </task>
+    <task id="LOCAL-00001" summary="Selenium day1 completed">
+      <created>1671972301618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671972301618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium day1 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium day1 completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
