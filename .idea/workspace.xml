@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Selenium day2 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/Practice/T1_Etsy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/Practice/T2_ZeroBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/Practice/T3_Navigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/Practice/T4_CydeoTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day2_locators_getText_getAttribute/Practice/T5_Facebook1.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="day3 is started">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/Practice/T5_errorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/T3_getAttribute_cssSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day03_cssSelector_xpath/T4_cssSelector_getText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +59,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.T5_Facebook1">
-    <configuration name="T1_Etsy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.T1_Etsy" />
+  <component name="RunManager" selected="Application.T5_errorTask">
+    <configuration name="T1_locators_getText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T1_locators_getText" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_ZeroBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.T2_ZeroBank" />
+    <configuration name="T2_getText_getAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T2_getText_getAttribute" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_Navigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.T3_Navigation" />
+    <configuration name="T3_getAttribute_cssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T3_getAttribute_cssSelector" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_CydeoTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.T4_CydeoTask" />
+    <configuration name="T4_cssSelector_getText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.T4_cssSelector_getText" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_Facebook1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.T5_Facebook1" />
+    <configuration name="T5_errorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.Practice.T5_errorTask" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day2_locators_getText_getAttribute.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T5_Facebook1" />
-        <item itemvalue="Application.T4_CydeoTask" />
-        <item itemvalue="Application.T3_Navigation" />
-        <item itemvalue="Application.T2_ZeroBank" />
-        <item itemvalue="Application.T1_Etsy" />
+        <item itemvalue="Application.T5_errorTask" />
+        <item itemvalue="Application.T4_cssSelector_getText" />
+        <item itemvalue="Application.T3_getAttribute_cssSelector" />
+        <item itemvalue="Application.T2_getText_getAttribute" />
+        <item itemvalue="Application.T1_locators_getText" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +151,10 @@
       <workItem from="1671972179269" duration="20032000" />
       <workItem from="1672046021454" duration="8000" />
       <workItem from="1672080467578" duration="3555000" />
+      <workItem from="1672251215372" duration="3220000" />
+      <workItem from="1672425789130" duration="4644000" />
+      <workItem from="1672490118092" duration="5288000" />
+      <workItem from="1672515768049" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -168,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671992243018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Practice day2 completed">
+      <created>1672251416081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672251416081</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day3 is started">
+      <created>1672490179690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672490179690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +193,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium day1 completed" />
     <MESSAGE value="Selenium day2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium day2 completed" />
+    <MESSAGE value="Practice day2 completed" />
+    <MESSAGE value="day3 is started" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3 is started" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
