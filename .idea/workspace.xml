@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="day3 is finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkBoxes_radio/T1_xpath_cssSelector_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkBoxes_radio/T4_FindElementsTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkBoxes_radio/T5_checkboxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day04_findElements_checkBoxes_radio/T6_staleElementReferenceExceptionTask.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="day4 is finished">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T1_StaleElementRefEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T2_RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T3_RadioButton_cont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +61,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.T6_staleElementReferenceExceptionTask">
-    <configuration name="T1_xpath_cssSelector_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.T1_xpath_cssSelector_practice" />
+  <component name="RunManager" selected="Application.T3_RadioButton_cont">
+    <configuration name="T1_StaleElementRefEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T1_StaleElementRefEx" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_FindElementsTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.T4_FindElementsTask" />
+    <configuration name="T2_RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T2_RadioButton" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_checkboxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.T5_checkboxes" />
+    <configuration name="T3_RadioButton_cont" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T3_RadioButton_cont" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_errorTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day03_cssSelector_xpath.Practice.T5_errorTask" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.Task1" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day03_cssSelector_xpath.Practice.*" />
+          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T6_staleElementReferenceExceptionTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.T6_staleElementReferenceExceptionTask" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.Task2" />
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day04_findElements_checkBoxes_radio.*" />
+          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T6_staleElementReferenceExceptionTask" />
-        <item itemvalue="Application.T5_checkboxes" />
-        <item itemvalue="Application.T4_FindElementsTask" />
-        <item itemvalue="Application.T1_xpath_cssSelector_practice" />
-        <item itemvalue="Application.T5_errorTask" />
+        <item itemvalue="Application.T3_RadioButton_cont" />
+        <item itemvalue="Application.T2_RadioButton" />
+        <item itemvalue="Application.T1_StaleElementRefEx" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,9 @@
       <workItem from="1672490118092" duration="5288000" />
       <workItem from="1672515768049" duration="1845000" />
       <workItem from="1672518332805" duration="1857000" />
-      <workItem from="1672565370103" duration="10171000" />
+      <workItem from="1672565370103" duration="10212000" />
+      <workItem from="1672681596771" duration="18000" />
+      <workItem from="1672859450250" duration="11416000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -194,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672518514353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day4 is finished">
+      <created>1672584500439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672584500439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +216,8 @@
     <MESSAGE value="Practice day2 completed" />
     <MESSAGE value="day3 is started" />
     <MESSAGE value="day3 is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3 is finished" />
+    <MESSAGE value="day4 is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="day4 is finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
