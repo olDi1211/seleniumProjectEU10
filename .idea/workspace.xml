@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="day4 is finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T1_StaleElementRefEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T2_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T3_RadioButton_cont.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Task2.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Before add NG">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T4_SimpleDropdowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/TestNG_Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/TestNg_Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/DropdownPractices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +61,61 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.T3_RadioButton_cont">
-    <configuration name="T1_StaleElementRefEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T1_StaleElementRefEx" />
+  <component name="RunManager" selected="TestNG.DropdownPractices">
+    <configuration name="DropdownPractices" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownPractices.dropdown_task5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
+      <option name="METHOD_NAME" value="dropdown_task5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropdownPractices.dropdown_task6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
+      <option name="METHOD_NAME" value="dropdown_task6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T4_SimpleDropdowns" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +123,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T4_SimpleDropdowns" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T2_RadioButton" />
+    <configuration name="T4_SimpleDropdowns.simpleDropdownsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
@@ -84,56 +140,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_RadioButton_cont" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T3_RadioButton_cont" />
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.Task1" />
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.Task2" />
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T4_SimpleDropdowns" />
+      <option name="METHOD_NAME" value="simpleDropdownsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T3_RadioButton_cont" />
-        <item itemvalue="Application.T2_RadioButton" />
-        <item itemvalue="Application.T1_StaleElementRefEx" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
+        <item itemvalue="TestNG.DropdownPractices" />
+        <item itemvalue="TestNG.DropdownPractices.dropdown_task6" />
+        <item itemvalue="TestNG.DropdownPractices.dropdown_task5" />
+        <item itemvalue="TestNG.T4_SimpleDropdowns.simpleDropdownsTest" />
+        <item itemvalue="TestNG.T4_SimpleDropdowns" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +183,8 @@
       <workItem from="1672518332805" duration="1857000" />
       <workItem from="1672565370103" duration="10212000" />
       <workItem from="1672681596771" duration="18000" />
-      <workItem from="1672859450250" duration="11416000" />
+      <workItem from="1672859450250" duration="18142000" />
+      <workItem from="1673470009116" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -204,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672584500439</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Before add NG">
+      <created>1673000769222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673000769222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +248,8 @@
     <MESSAGE value="day3 is started" />
     <MESSAGE value="day3 is finished" />
     <MESSAGE value="day4 is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4 is finished" />
+    <MESSAGE value="Before add NG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before add NG" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
