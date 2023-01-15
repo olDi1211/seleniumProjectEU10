@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Before add NG">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/T4_SimpleDropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/TestNG_Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day5_testNG_intro_dropdowns/TestNg_Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/DropdownPractices.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day6 started">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/T1_Alert_Practices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/T4_iframe_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day6_alerts_iframes_windows/T5_Windows_handle_practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +59,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DropdownPractices">
-    <configuration name="DropdownPractices" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T5_Windows_handle_practice (2)">
+    <configuration name="T4_iframe_Practice.iframe_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
@@ -71,25 +69,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropdownPractices.dropdown_task5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
-      <option name="METHOD_NAME" value="dropdown_task5" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T4_iframe_Practice" />
+      <option name="METHOD_NAME" value="iframe_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropdownPractices.dropdown_task6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T5_Windows_handle_practice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
@@ -106,25 +87,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.DropdownPractices" />
-      <option name="METHOD_NAME" value="dropdown_task6" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T4_SimpleDropdowns" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T4_SimpleDropdowns" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -132,17 +95,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_SimpleDropdowns.simpleDropdownsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T5_Windows_handle_practice (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day5_testNG_intro_dropdowns.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day5_testNG_intro_dropdowns.T4_SimpleDropdowns" />
-      <option name="METHOD_NAME" value="simpleDropdownsTest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T5_Windows_handle_practice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T5_Windows_handle_practice.multiple_window_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
+      <option name="METHOD_NAME" value="multiple_window_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DropdownPractices" />
-        <item itemvalue="TestNG.DropdownPractices.dropdown_task6" />
-        <item itemvalue="TestNG.DropdownPractices.dropdown_task5" />
-        <item itemvalue="TestNG.T4_SimpleDropdowns.simpleDropdownsTest" />
-        <item itemvalue="TestNG.T4_SimpleDropdowns" />
+        <item itemvalue="TestNG.T5_Windows_handle_practice (2)" />
+        <item itemvalue="TestNG.T5_Windows_handle_practice (1)" />
+        <item itemvalue="TestNG.T5_Windows_handle_practice.multiple_window_test" />
+        <item itemvalue="TestNG.T5_Windows_handle_practice" />
+        <item itemvalue="TestNG.T4_iframe_Practice.iframe_test" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +181,8 @@
       <workItem from="1672565370103" duration="10212000" />
       <workItem from="1672681596771" duration="18000" />
       <workItem from="1672859450250" duration="18142000" />
-      <workItem from="1673470009116" duration="3927000" />
+      <workItem from="1673470009116" duration="4004000" />
+      <workItem from="1673789403115" duration="8133000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -235,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673000769222</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day6 started">
+      <created>1673475427321</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673475427321</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +254,8 @@
     <MESSAGE value="day3 is finished" />
     <MESSAGE value="day4 is finished" />
     <MESSAGE value="Before add NG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before add NG" />
+    <MESSAGE value="Day6 started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day6 started" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
