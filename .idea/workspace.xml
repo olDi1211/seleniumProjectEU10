@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day6 finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T1_WindowHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T3_CRM_LOGIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day7 started">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/CRM_Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T3_CRM_LOGIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T3_CRM_LOGIN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.T3_CRM_LOGIN.crm_login_test">
+  <component name="RunManager" selected="TestNG.T3_CRM_LOGIN.crm_login_test_3">
     <configuration name="T1_WindowHandling.window_handling_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
@@ -72,6 +71,23 @@
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T1_WindowHandling" />
       <option name="METHOD_NAME" value="window_handling_test" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3_CRM_LOGIN" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T3_CRM_LOGIN" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -96,51 +112,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_Windows_handle_practice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_CRM_LOGIN.crm_login_test_2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T3_CRM_LOGIN" />
+      <option name="METHOD_NAME" value="crm_login_test_2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T5_Windows_handle_practice (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_CRM_LOGIN.crm_login_test_3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T5_Windows_handle_practice.multiple_window_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day6_alerts_iframes_windows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day6_alerts_iframes_windows.T5_Windows_handle_practice" />
-      <option name="METHOD_NAME" value="multiple_window_test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T3_CRM_LOGIN" />
+      <option name="METHOD_NAME" value="crm_login_test_3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T3_CRM_LOGIN.crm_login_test_3" />
+        <item itemvalue="TestNG.T3_CRM_LOGIN" />
+        <item itemvalue="TestNG.T3_CRM_LOGIN.crm_login_test_2" />
         <item itemvalue="TestNG.T3_CRM_LOGIN.crm_login_test" />
         <item itemvalue="TestNG.T1_WindowHandling.window_handling_test" />
-        <item itemvalue="TestNG.T5_Windows_handle_practice (2)" />
-        <item itemvalue="TestNG.T5_Windows_handle_practice (1)" />
-        <item itemvalue="TestNG.T5_Windows_handle_practice.multiple_window_test" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +185,7 @@
       <workItem from="1673470009116" duration="4004000" />
       <workItem from="1673789403115" duration="8160000" />
       <workItem from="1673899272436" duration="3268000" />
-      <workItem from="1673979975228" duration="5455000" />
+      <workItem from="1673979975228" duration="6684000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673800738809</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day7 started">
+      <created>1673995056932</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673995056932</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="Before add NG" />
     <MESSAGE value="Day6 started" />
     <MESSAGE value="Day6 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day6 finished" />
+    <MESSAGE value="Day7 started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day7 started" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
