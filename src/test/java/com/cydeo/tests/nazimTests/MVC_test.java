@@ -21,7 +21,7 @@ public class MVC_test {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @Test
-    public void mvc_test(){
+    public void mvc_test() throws InterruptedException {
 
         //1. Load the website.
         driver.navigate().to("https://todomvc.com");
@@ -37,12 +37,10 @@ public class MVC_test {
         //4. Add two Todo items
         //4.1 Add first item:
         WebElement input = driver.findElement(By.xpath("//input[@id='new-todo']"));
-        input.sendKeys("My first item");
-        input.sendKeys(Keys.ENTER);
+        input.sendKeys("My first item"+Keys.ENTER);
 
         //4.2 Add second item:
-        input.sendKeys("My second item");
-        input.sendKeys(Keys.ENTER);
+        input.sendKeys("My second item"+Keys.ENTER);
 
         //5. Edit the content of the second Todo item
         WebElement secondItem = driver.findElement(By.xpath("(//input[@type='checkbox'])[3]"));

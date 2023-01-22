@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day8 javaFaker dependency is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day9_javaFaker_testBase_driverUtil/JavaFakerPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day9_javaFaker_testBase_driverUtil/Singelton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day9_javaFaker_testBase_driverUtil/SingeltonPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day8 finished">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T1_Registration_Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T2_Upload_Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T3_Actions_Hover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T4_ScrollPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T6_JavaScriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day10_upload_actions_jsexecutor/T7_Scroll_JS_Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day11_actions_jsexecuter_practice/T1_Drag_N_Drop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T3_CRM_LOGIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day7_webtabies_utilities_javafaker/T3_CRM_LOGIN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day8_properties_config_reader/T4_Config_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day8_properties_config_reader/T4_Config_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/MVC_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/MVC_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +62,57 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SingeltonPractice">
-    <configuration name="SingeltonPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T1_Drag_N_Drop.dragAndDropTest">
+    <configuration name="T1_Drag_N_Drop.dragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day11_actions_jsexecuter_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil.SingeltonPractice" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day11_actions_jsexecuter_practice" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day11_actions_jsexecuter_practice.T1_Drag_N_Drop" />
+      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_Registration_Form.registration_form_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day10_upload_actions_jsexecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor.T1_Registration_Form" />
+      <option name="METHOD_NAME" value="registration_form_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T4_ScrollPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProjectEU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.tests.day10_upload_actions_jsexecutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor.T4_ScrollPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -81,17 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingeltonPractice.singelton_Understand_test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4_ScrollPractice.scrollPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10_upload_actions_jsexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day9_javaFaker_testBase_driverUtil.SingeltonPractice" />
-      <option name="METHOD_NAME" value="singelton_Understand_test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor.T4_ScrollPractice" />
+      <option name="METHOD_NAME" value="scrollPractice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,17 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_CRM_LOGIN.crm_login_test_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T6_JavaScriptExecutor.javaScript_executor_test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10_upload_actions_jsexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T3_CRM_LOGIN" />
-      <option name="METHOD_NAME" value="crm_login_test_1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor.T6_JavaScriptExecutor" />
+      <option name="METHOD_NAME" value="javaScript_executor_test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,35 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_CRM_LOGIN.crm_login_test_3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T7_Scroll_JS_Executor.scroll_by_js_executor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day10_upload_actions_jsexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtabies_utilities_javafaker.T3_CRM_LOGIN" />
-      <option name="METHOD_NAME" value="crm_login_test_3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T4_Config_Practice.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProjectEU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day8_properties_config_reader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day8_properties_config_reader" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day8_properties_config_reader.T4_Config_Practice" />
-      <option name="METHOD_NAME" value="googleSearchTest" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day10_upload_actions_jsexecutor.T7_Scroll_JS_Executor" />
+      <option name="METHOD_NAME" value="scroll_by_js_executor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SingeltonPractice" />
-        <item itemvalue="TestNG.SingeltonPractice.singelton_Understand_test1" />
-        <item itemvalue="TestNG.T4_Config_Practice.googleSearchTest" />
-        <item itemvalue="TestNG.T3_CRM_LOGIN.crm_login_test_1" />
-        <item itemvalue="TestNG.T3_CRM_LOGIN.crm_login_test_3" />
+        <item itemvalue="TestNG.T1_Drag_N_Drop.dragAndDropTest" />
+        <item itemvalue="TestNG.T4_ScrollPractice" />
+        <item itemvalue="TestNG.T4_ScrollPractice.scrollPractice" />
+        <item itemvalue="TestNG.T7_Scroll_JS_Executor.scroll_by_js_executor" />
+        <item itemvalue="TestNG.T6_JavaScriptExecutor.javaScript_executor_test1" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +212,9 @@
       <workItem from="1673789403115" duration="8160000" />
       <workItem from="1673899272436" duration="3268000" />
       <workItem from="1673979975228" duration="6952000" />
-      <workItem from="1674058062208" duration="32666000" />
+      <workItem from="1674058062208" duration="36132000" />
+      <workItem from="1674319151134" duration="8951000" />
+      <workItem from="1674380251402" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -284,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674158375112</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day8 finished">
+      <created>1674169497601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674169497601</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,9 +332,9 @@
     <MESSAGE value="Day6 finished" />
     <MESSAGE value="Day7 started" />
     <MESSAGE value="Day7 finished" />
-    <MESSAGE value="Day8 finished" />
     <MESSAGE value="Day8 javaFaker dependency is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day8 javaFaker dependency is added" />
+    <MESSAGE value="Day8 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day8 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
