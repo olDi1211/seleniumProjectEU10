@@ -8,7 +8,7 @@ I use my utilities methods to do this project more simple, such as:
 `Driver.closeDriver()` - to close the browser.
 
 All data, as browser typ, and url were taken from `configuration.properties` where i store data to run the test. 
-For reading data from configuration.properties was used `ConfigurationReader` which allows to us read the data.
+For reading data from configuration.properties was used `ConfigurationReader` which allows us to read the data.
 
 This test allows us to check if data of the searching product's looks how we expected.
 
