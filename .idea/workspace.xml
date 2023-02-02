@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Day11 finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Evreka_test.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Nazim task is finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Evreka_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/Evreka_test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,8 @@
       <workItem from="1674844799551" duration="874000" />
       <workItem from="1674941981268" duration="2455000" />
       <workItem from="1674995415797" duration="599000" />
-      <workItem from="1675277447239" duration="8112000" />
+      <workItem from="1675277447239" duration="8250000" />
+      <workItem from="1675352722197" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674391219986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Nazim task is finished">
+      <created>1675286262828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675286262828</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +327,8 @@
     <MESSAGE value="Day8 javaFaker dependency is added" />
     <MESSAGE value="Day8 finished" />
     <MESSAGE value="Day11 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day11 finished" />
+    <MESSAGE value="Nazim task is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nazim task is finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

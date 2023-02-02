@@ -24,7 +24,7 @@ public class Evreka_test {
         // 2. Search iPhone13 512
         WebElement searchInput = Driver.getDriver().findElement(By.xpath("//input[@type='text']"));
         searchInput.click();
-        searchInput.sendKeys("iPhone13 512"+ Keys.ENTER);
+        searchInput.sendKeys("iPhone 13 512"+ Keys.ENTER);
 
         // 3. Check that the results are listed
         List<WebElement> listOfResults = Driver.getDriver().findElements(By.xpath("//span[@class='a-size-base-plus a-color-base a-text-normal']"));
@@ -32,7 +32,7 @@ public class Evreka_test {
         String lookingProduct = "iPhone 13";
         int amountOfProducts = 0;
 
-        //This loop verify if needed product is listed. You can change the "lookingProduct" and check if another products are listed.
+        //This loop verify if needed product is listed. You can change the "lookingProduct" String and check if another products are listed.
         for (int i = 0; i < listOfResults.size(); i++) {
             if (listOfResults.get(i).getText().contains(lookingProduct)){
                 amountOfProducts++;
@@ -43,8 +43,14 @@ public class Evreka_test {
             }
         }
 
-        //4. Click iPhone13 at the top of the list
-        listOfResults.get(0).click();
+        //4. This loop click on the first iPhone 13 at the top of the list, even if iPhone is not at the first place of the whole list
+        for (int i = 0; i < listOfResults.size(); i++) {
+            if (listOfResults.get(i).getText().contains(lookingProduct)) {
+                listOfResults.get(0).click();
+                break;
+            }
+        }
+
 
         //5. Log the following values for each size. Size information .Price .Color .Stock status
         WebElement size = Driver.getDriver().findElement(By.xpath("//p[.='512 GB']"));
