@@ -1,6 +1,6 @@
-##AmazonTask
+#AmazonTask
 
-For creating a test was using #Selenium and #Maven.
+For creating a test was using * Selenium and * Maven.
 
 I use my utilities methods to do this project more simple, such as:
 
