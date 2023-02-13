@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="Nazim task is finished">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/FIFA_Test.java" afterDir="false" />
+    <list default="true" id="68fefb24-a073-43f2-9dc8-cf9086210025" name="Changes" comment="FIFA task is finished">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicLoad1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicLoad7Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/LibraryLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day12_pom_design_explicit_wait/POMPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day12_pom_design_explicit_wait/WebDriverWaitPractices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMeNazimAmazonTask.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/nazimTests/readMeNazimAmazonTask.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +62,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.FIFA_Test.FIFA_Test (3)">
-    <configuration name="FIFA_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dmuti\IdeaProjects\seleniumProjectEU10\src\test\java\com\cydeo\tests\nazimTests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.WebDriverWaitPractices.dynamic_load1_test">
+    <configuration name="POMPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.nazimTests" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.FIFA_Test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.POMPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,17 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIFA_Test.FIFA_Test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="POMPractice.invalid_email_format_error_message_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.nazimTests" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.FIFA_Test" />
-      <option name="METHOD_NAME" value="FIFA_Test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.POMPractice" />
+      <option name="METHOD_NAME" value="invalid_email_format_error_message_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,17 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIFA_Test.FIFA_Test (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="POMPractice.library_negative_login_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.nazimTests" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.FIFA_Test" />
-      <option name="METHOD_NAME" value="FIFA_Test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.POMPractice" />
+      <option name="METHOD_NAME" value="library_negative_login_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIFA_Test.FIFA_Test (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverWaitPractices.dynamic_load1_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.nazimTests" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.FIFA_Test" />
-      <option name="METHOD_NAME" value="FIFA_Test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.WebDriverWaitPractices" />
+      <option name="METHOD_NAME" value="dynamic_load1_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,17 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIFA_Test.FIFA_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverWaitPractices.dynamic_load7_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumProjectEU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.nazimTests.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.nazimTests" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.nazimTests.FIFA_Test" />
-      <option name="METHOD_NAME" value="FIFA_Test" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.WebDriverWaitPractices" />
+      <option name="METHOD_NAME" value="dynamic_load7_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FIFA_Test.FIFA_Test (3)" />
-        <item itemvalue="TestNG.FIFA_Test.FIFA_Test" />
-        <item itemvalue="TestNG.FIFA_Test.FIFA_Test (2)" />
-        <item itemvalue="TestNG.FIFA_Test.FIFA_Test (1)" />
-        <item itemvalue="TestNG.FIFA_Test" />
+        <item itemvalue="TestNG.WebDriverWaitPractices.dynamic_load1_test" />
+        <item itemvalue="TestNG.WebDriverWaitPractices.dynamic_load7_test" />
+        <item itemvalue="TestNG.POMPractice" />
+        <item itemvalue="TestNG.POMPractice.library_negative_login_test" />
+        <item itemvalue="TestNG.POMPractice.invalid_email_format_error_message_test" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +207,9 @@
       <workItem from="1675515942284" duration="224000" />
       <workItem from="1675525099442" duration="535000" />
       <workItem from="1675605506375" duration="10000" />
-      <workItem from="1675623753004" duration="7391000" />
+      <workItem from="1675623753004" duration="7766000" />
+      <workItem from="1675709664416" duration="15000" />
+      <workItem from="1676201313439" duration="11446000" />
     </task>
     <task id="LOCAL-00001" summary="Selenium day1 completed">
       <created>1671972301618</created>
@@ -318,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675361379274</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="FIFA task is finished">
+      <created>1675632433658</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675632433658</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +359,8 @@
     <MESSAGE value="Day8 finished" />
     <MESSAGE value="Day11 finished" />
     <MESSAGE value="Nazim task is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nazim task is finished" />
+    <MESSAGE value="FIFA task is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIFA task is finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
